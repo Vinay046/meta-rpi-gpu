@@ -2,10 +2,7 @@
 
 ## Overview
 
-`meta-rpi-gpu` is a Yocto meta-layer focused on leveraging the GPU capabilities
-of Raspberry Pi devices to render graphics and run OpenGL applications. This
-layer includes recipes and configurations necessary to build graphical
-applications using the GPU on Raspberry Pi.
+`meta-rpi-gpu` is a Yocto meta-layer focused on leveraging the GPU capabilities of Raspberry Pi devices to render graphics and run OpenGL applications. This layer includes recipes and configurations necessary to build graphical applications using the GPU on Raspberry Pi.
 
 ## Layer Dependencies
 
@@ -34,7 +31,8 @@ A simple OpenGL ES example application.
 - **License**: MIT
 
 ## Setup Instructions
-  I will move this repository to my repo init config.yml. later.
+
+I will move this repository to my repo init config.yml later.
 
 1. **Clone the meta-rpi-gpu Layer**:
 
