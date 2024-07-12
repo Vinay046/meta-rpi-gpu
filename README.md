@@ -30,12 +30,16 @@ A simple OpenGL ES example application.
 - **Source**: [hello-triangle GitHub Repository](https://github.com/Vinay046/hello-triangle)
 - **License**: MIT
 
+### cube-renderer
+
+A simple OpenGL ES example application.
+
+- **Description**: A basic example that demonstrates how to render a cube using OpenGL ES.
+- **Source**: [cube-renderer GitHub Repository](https://github.com/Vinay046/cube-renderer)
+- **License**: MIT
+
 ## Setup Instructions
 
-I will move this repository to my repo init config.yml later.
+You will need repo tool to pull down all necessary repositories.
 
-1. **Clone the meta-rpi-gpu Layer**:
-
-   ```sh
-   cd /path/to/yocto/sources
-   git clone https://github.com/yourusername/meta-rpi-gpu.git
+      repo init -u https://github.com/Vinay046/raspi-config.git -m manifest.xml -b master
