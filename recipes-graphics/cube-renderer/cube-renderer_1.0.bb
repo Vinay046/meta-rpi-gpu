@@ -4,7 +4,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=300dc5c2b87ecbb95453580885cbbf73"
 
 SRC_URI = "git://github.com/Vinay046/cube-renderer.git;branch=master;protocol=https"
-SRCREV = "eb70532ae2d409dc8cd5b0f2b77947f1e574c55d"
+SRCREV = "f1e2cc99dfecc3fce9fd32bf2d77046eb1ab3084"
 
 DEPENDS = "mesa virtual/mesa virtual/egl virtual/libgles2 wayland wayland-protocols wayland-native glm"
 
