@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=300dc5c2b87ecbb95453580885cbbf73"
 SRC_URI = "git://github.com/Vinay046/hello-triangle.git;branch=master;protocol=https"
 SRCREV = "${AUTOREV}"
 
-DEPENDS = "mesa virtual/mesa virtual/egl virtual/libgles2 wayland wayland-protocols wayland-native"
+DEPENDS = "mesa virtual/mesa virtual/egl virtual/libgles2 libdrm libgbm"
 
 S = "${WORKDIR}/git"
 
